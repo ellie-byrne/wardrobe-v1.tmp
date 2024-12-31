@@ -1,0 +1,16 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    height: 5rem;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+nav img { 
+    height: 2rem;
+    width: 2rem;
+
+}
