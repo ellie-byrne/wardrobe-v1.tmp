@@ -2,15 +2,14 @@ nav {
     display: flex;
     flex-direction: row;
     gap: 1rem;
-    padding: 1rem;
+    padding: 1rem 1.5rem;
     box-sizing: border-box;
     height: 5rem;
-    /* justify-content: center; */
     align-items: center;
 }
 
 nav img { 
-    height: 2rem;
-    width: 2rem;
+    height: 1.5rem;
+    width: 1.5rem;
 
 }
