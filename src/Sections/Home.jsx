@@ -23,7 +23,6 @@ const Home = () => {
 
     return (
         <>
-            <h1>Home Page</h1>
             {wardrobejson ?
                 (wardrobejson.map((item, index) => (
                     <div key={index}>
