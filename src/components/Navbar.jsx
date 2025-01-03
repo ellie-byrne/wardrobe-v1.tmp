@@ -12,6 +12,14 @@ import {
     NavigationMenuViewport,
   } from "@/components/ui/navigation-menu"
 import { navigationMenuTriggerStyle } from "@/components/ui/navigation-menu"
+import {
+    Select,
+    SelectContent,
+    SelectItem,
+    SelectTrigger,
+    SelectValue,
+  } from "@/components/ui/select"
+  
 
   
 
@@ -49,7 +57,10 @@ export const Navbar = () => {
                         </Link>
                         {/* All Items grid layout with options to filter */}
                         <NavigationMenuTrigger>All Items</NavigationMenuTrigger>
-                            <NavigationMenuContent>
+                            <NavigationMenuContent className='p-5'>
+                                <NavigationMenuItem>All Items</NavigationMenuItem>
+                                <NavigationMenuItem>Tops</NavigationMenuItem>
+                                <NavigationMenuItem>Bottoms</NavigationMenuItem>
                                 <NavigationMenuLink>
                                     <Link to='/contact'></Link>
                                 </NavigationMenuLink>

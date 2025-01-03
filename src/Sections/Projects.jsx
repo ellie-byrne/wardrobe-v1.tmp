@@ -1,11 +1,26 @@
-import React from "react";
 
-const Projects = () => {
-    return (
-        <div>
+// import React from "react";
 
-        </div>
-    );
-};
+// // THIS IS TO BE SWAPPED with home
 
-export default Projects;
+// const Projects = () => {
+//     return (
+//         <div>
+
+//         </div>
+//     );
+// };
+
+// export default Projects;
+
+import ItemSubmissionForm from '../components/ui/ItemSubmissionForm';  // adjust the path based on your file structure
+
+function AddItemPage() {
+  return (
+    <div className="container mx-auto py-8">
+      <ItemSubmissionForm />
+    </div>
+  );
+}
+
+export default AddItemPage;
